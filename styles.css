@@ -1,0 +1,15 @@
+#main-header {
+    background-color:  red;
+    
+}
+
+#main-browser {
+    background-color:  orange;
+     margin-top: 80px;
+    
+}
+
+#header-content {
+    display: inline;
+    align-items: right;
+}
