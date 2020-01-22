@@ -1,15 +1,86 @@
-#main-header {
-    background-color:  red;
-    
+ /*Secciones principales de la pag */
+
+.main-header {
+    background-color:  #B793D7; /*LILA*/
+    height: 80px;
 }
 
-#main-browser {
-    background-color:  orange;
-     margin-top: 80px;
-    
+.main-browser{
+  position: relative;
+  background-color:  #8BD2AD; /*VERDE*/
+  height: 180px;
 }
 
-#header-content {
-    display: inline;
-    align-items: right;
+body {
+  background-image: url('img/Background_pages.png');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+  background-blend-mode: lighten;
+  /*background-attachment: scroll;
+  background-blend-mode: screen;*/
 }
+/*Contenido del header*/
+.headerHolder {
+  margin:0 auto;
+  padding-top: 20px;
+  float: right;
+  margin-right: 20px;
+  padding: 20px;
+}
+
+/*Contenido del buscador*/
+.browserHolder {
+    margin:0 auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /*padding: 20px;*/
+}
+
+/*Contenido de resultados*/
+.booksHolder {
+    margin:0 auto;
+    width: 50%;
+    padding: 100px;
+}
+
+.user-input, .password-input, .search-input {
+  height: 34px;
+}
+
+/*elemntos en particular boton*/
+button {
+  height: 40px;
+  border: 3px solid grey;
+  color: #E6C8AB;
+}
+
+h1{
+  font-family: sans-serif;
+  
+  color: #B793D7;
+  padding: 10px;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+}
+
+.cesta-header{
+  /*color: white;*/
+}
+
+.search-input {
+  width:600px;
+}
+
+.products {
+  padding: 50px;
+  border: 3px solid grey;
+  background-color: #E6C8AB;
+  background-blend-mode: lighten;
+}
+
+
+/* color set: #8BD2AD, #B793D7, #DCBC9A, #E1C2A2, #E6C8AB

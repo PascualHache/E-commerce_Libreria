@@ -5,42 +5,48 @@
         <title=""></title>
         <link rel="stylesheet" href="styles.css">
     </head>
-    
+
     <body>
-        
-        <header id="main-header">
-            <section id="header-content">
+
+        <header class="main-header">
+            <div class="headerHolder">
                 <a href="test.html" title=”cesta”>
-                    <img id="cesta-header" src="img/basket.png" alt="" height="42" width="42">
+                    <img class="cesta-header" src="img/basket.png" alt="" height="22" width="22">
                 </a>
-                <input id="user-input" type="text" name="nombre" placeholder="Usuario o email">
-                <input id="password-input" type="password" name="pass" placeholder="Contraseña">
+                <input class="user-input" type="text" name="nombre" placeholder="Usuario o email">
+                <input class="password-input" type="password" name="pass" placeholder="Contraseña">
                 <button type="button">Enviar</button>
-            </section>
+            </div>
         </header>
-        
-        <section id="main-browser">
+
+        <section class="main-browser">
+          <h1>EL RINCÓN DE LEER</h1>
+          <div class="browserHolder">
             <button type="button">Filtro</button>
-            <input id="search-input" type="text" name="search" placeholder="Busca por autor, título, género, ISBN...">
+            <input class="search-input" type="text" name="search" placeholder="Busca por autor, título, género, ISBN...">
             <button type="button">Buscar</button>
-            </section>
-        <section id="main-content">
+          </div>
+        </section>
+
+        <section class="main-content">
+          <div class="booksHolder">
             <table class="egt">
               <tr>
-                <td><img src="img/notebook (1).png" alt="" height="200" width="200"></td>
-                <td><img src="img/notebook (2).png" alt="" height="200" width="200"></td>
-                <td><img src="img/notebook (3).png" alt="" height="200" width="200"></td>
+                <td><img src="img/notebook (1).png" class="products" alt="" height="200" width="200"></td>
+                <td><img src="img/notebook (2).png" class="products" alt="" height="200" width="200"></td>
+                <td><img src="img/notebook (3).png" class="products" alt="" height="200" width="200"></td>
               </tr>
               <tr>
-                <td><img src="img/notebook.png" alt="" height="200" width="200"></td>
-                <td><img src="img/notebook (1).png" alt="" height="200" width="200"></td>
-                <td><img src="img/notebook.png" alt="" height="200" width="200"></td>
+                <td><img src="img/notebook.png" class="products" alt="" height="200" width="200"></td>
+                <td><img src="img/notebook (1).png" class="products" alt="" height="200" width="200"></td>
+                <td><img src="img/notebook.png" class="products" alt="" height="200" width="200"></td>
               </tr>
             </table>
+          </div>
 
         </section>
-        
-            
-         
+
+
+
     </body>
 </html>
