@@ -1,25 +1,23 @@
  /*Secciones principales de la pag */
-
 .main-header {
-    background-color:  #B793D7; /*LILA*/
+    background-color:  #DBAD6A;
     height: 80px;
 }
 
 .main-browser{
   position: relative;
-  background-color:  #8BD2AD; /*VERDE*/
-  height: 180px;
-}
-
-body {
-  background-image: url('img/Background_pages.png');
+    background-image: url('img/Background_pages.png');
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: 100% 100%;
-  background-blend-mode: lighten;
-  /*background-attachment: scroll;
-  background-blend-mode: screen;*/
+  height: 130px;
+    padding-bottom: 80px;
 }
+
+body {
+    background-color:  #DFD5A5;
+}
+
 /*Contenido del header*/
 .headerHolder {
   margin:0 auto;
@@ -36,50 +34,50 @@ body {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    /*padding: 20px;*/
 }
 
 /*Contenido de resultados*/
 .booksHolder {
     margin:0 auto;
-    width: 50%;
-    padding: 100px;
+    width: 80%;
+    padding: 50px;
 }
 
 .user-input, .password-input, .search-input {
   height: 34px;
 }
 
-/*elemntos en particular boton*/
+/*elementos en particular*/
 button {
   height: 40px;
   border: 3px solid grey;
-  color: #E6C8AB;
+  color: #628395;
 }
 
-h1{
-  font-family: sans-serif;
-  color: #B793D7;
-  padding: 10px;
-  position: absolute;
-  left: 50%;
-  transform: translate(-50%);
+a{
+    font-size: 150%;
+    padding: 10px;
+    text-decoration:none;
 }
 
-.cesta-header{
-  /*color: white;*/
+.pageTitle{
+    -webkit-text-stroke: 2px black;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 200%;
+    font-weight: bold;
+    color: white;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
 }
 
 .search-input {
-  width:600px;
+  width:500px;
 }
 
 .products {
   padding: 50px;
   border: 3px solid grey;
-  background-color: #E6C8AB;
+  background-color: #DBAD6A;
   background-blend-mode: lighten;
 }
-
-
-/* color set: #8BD2AD, #B793D7, #DCBC9A, #E1C2A2, #E6C8AB
